@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" viewBox="0 0 50 50" width="50" height="50"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #c9c9c9;
+        stroke-miterlimit: 10;
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+
+      .st2 {
+        fill: #101e4b;
+      }
+    </style>
+  </defs><rect class="st1" x="0" y="0" width="50" height="50"></rect><circle class="st0" cx="18.68" cy="18.65" r="18.14"></circle><ellipse class="st1" cx="31.54" cy="28.09" rx="17.91" ry="21.91"></ellipse><circle class="st0" cx="33.6" cy="33.63" r="15.85"></circle><path class="st2" d="M35.81,35.69h-6.41l-2.09,5.76h2.57v.82h-5.68v-.82h1.98l7.17-19.26h.76l6.92,19.26h1.95v.82h-7.68v-.82h2.49l-1.98-5.76ZM29.68,34.88h5.85l-2.82-8.47-3.02,8.47Z"></path><circle class="st1" cx="21.69" cy="24.62" r="6.97"></circle><path class="st2" d="M24.98,7.92l.28,5.31h-.68c-.56-4.21-2.17-4.49-5.65-4.49h-2.6v8.44h1.47c2.29,0,2.88-.68,3.33-3.62h.59v8.36h-.65c-.51-3.11-.96-3.84-3.56-3.84h-1.19v8.78h2.97c4.07,0,5.48-1.21,6.13-5.06h.56l-.2,5.88h-14.66v-.82h2.23V8.74h-2.23v-.82h13.84Z"></path><line class="st0" x1="32.3" y1="11.19" x2="36.58" y2="18.24"></line><line class="st0" x1="34.63" y1="8.38" x2="36.82" y2="18.38"></line><line class="st0" x1="38.54" y1="8.99" x2="35.39" y2="11.56"></line><line class="st0" x1="38.54" y1="8.99" x2="40.42" y2="12.78"></line><line class="st0" x1="42.34" y1="9.67" x2="36.96" y2="18.27"></line><line class="st0" x1="42.12" y1="9.29" x2="43.4" y2="13.51"></line><polyline class="st0" points="32.36 11.66 34.53 8.44 42.49 9.61"></polyline><line class="st0" x1="43.31" y1="13.23" x2="32.52" y2="11.56"></line><line class="st0" x1="43.56" y1="12.98" x2="36.8" y2="18.27"></line></svg>
