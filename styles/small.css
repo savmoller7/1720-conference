@@ -1,0 +1,249 @@
+/**************** COLOR SCHEME ****************/
+:root {
+    --color-primary: #101e4b;
+    --color-secondary: #03809a;
+    /* series of Grey Scale Colors*/
+    --color-grey-05: lab(98% 0 0);
+    --color-grey-10: lab(97% 0 0);
+    --color-grey-20: lab(91% 0 0);
+    --color-grey-30: lab(85% 0 0);
+    --color-grey-40: lab(66% 0 0);
+    --color-grey-50: lab(48% 0 0);
+    --color-grey-60: lab(34% 0 0);
+    --color-grey-70: lab(27% 0 0);
+    --color-grey-80: lab(15% 0 0);
+    --color-grey-90: lab(8% 0 0);
+    --color-grey-95: lab(3% 0 0);
+}
+
+
+
+
+/**************** BORDER BOX ****************/
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/**************** BODY TAGS ****************/
+body {
+    font-family: "Source Serif 4", serif;
+}
+
+
+/**************** HEADER ****************/
+header {
+    padding: 10px 0 10px 10px;
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    align-items: end;
+    column-gap: 8px;
+    border-bottom: solid 1px var(--color-grey-10);
+}
+
+header img {
+    display: block;
+    width: auto;
+    height: 50px;
+    padding-bottom: 2px
+}
+
+header span {
+    color: var(--color-grey-60);
+}
+
+
+/**************** NAVIGATION ****************/
+nav {
+    background-color: var(--color-grey-10);
+    display: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--color-grey-60);
+    text-decoration: none;
+    padding: .85rem 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav li.active a {
+    background-color: var(--color-grey-20);
+    color: var(--color-primary);
+}
+
+nav.show {
+    display: block;
+}
+
+/**************** HAMBURGER ****************/
+.hamburger {
+    background: none;
+    border: none;
+    color: var(--color-grey-60);
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: Verdana;
+    justify-self: end;
+}
+
+.hamburger:before {
+    content: "\2630";
+}
+
+.hamburger.show:before {
+    content: "\00D7";
+}
+
+
+/**************** MAIN ****************/
+h1 {
+    font-size: 2.7rem;
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+p {
+    color: var(--color-grey-60);
+}
+
+/**************** HERO LAYOUT ****************/
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255,255,255,.5);
+    width: 100%;
+    color: var(--color-primary);
+    font-weight: 400;
+}
+
+
+/**************** SCHEDULE LAYOUT ****************/
+
+.schedule {
+    border-collapse: collapse;
+    margin: 1rem 10px;
+    color: var(--color-grey-70);
+    font-size: .7rem;
+}
+
+.schedule tr {
+    border-bottom: 1px solid var(--color-grey-20);
+    &:hover {background-color: var(--color-grey-05);}
+}
+
+.schedule th {
+    background-color: var(--color-primary);
+    color: var(--color-grey-05);
+    padding: 1rem 0;
+}
+
+.schedule td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.schedule p {
+    margin: 0;
+    padding: 0;
+}
+
+.schedule .time {
+    font-weight: 600;
+    font-size: .7rem;
+    color: var(--color-grey-40);
+}
+
+.schedule .title {
+    font-weight: 600;
+    color: var(--color-secondary);
+    padding-bottom: 5px;
+}
+
+.schedule .name {
+    font-weight: 600;
+    color: var(--color-primary);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.schedule img {
+    display: block;
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.schedule .desc {
+    font-weight: 600;
+    color: var(--color-grey-50);
+    font-size: .7rem;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+/**************** SOCIALS ****************/
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.social img {
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+.social a {
+    border: solid 1px var(--color-grey-40);
+    border-radius: 6px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey-20)
+}
+
+.social a:hover {
+    background-color: var(--color-grey-10);
+}
+
+
+/**************** FOOTER ****************/
+footer {
+    background-color: var(--color-grey-30);
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: .75rem;
+}
